@@ -1,0 +1,13 @@
+﻿body { /* changing the font */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+label{ /* changing labels on form */
+    font-size: 20px;
+    width: 250px;
+    display: inline-block
+}
+
+form input { /* adding form margins */
+    margin-bottom: 10px;
+}

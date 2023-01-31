@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Christopher Isaksen - Mission #4</title> <!-- webpage title -->
+    <link rel="shortcut icon" href="favfinal4.ico" type="image/x-icon" /> <!-- favicon -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> <!-- attaching bootstrap css -->
+    <link href="css/default.css" rel="stylesheet" /> <!-- attaching css -->
+</head>
+<body>
+    <div class="text-center">
+        <h1>Christopher Isaksen - Mission #4</h1> <!-- title w/ name and assignment -->
+        <h2>Preferred Name: Chris</h2> <!-- preferred name -->
+        <img src="img/chrisrock.jpg" width="444" height="333"/> <!-- attaching image of climbing -->
+        <p> <!-- what i hope to get out of this class -->
+            I am super excited for this class! Coming out of Python-Django, I feel prepared and excited to learn a new framework. Devloping these
+            crucial skills is essential to survive in the business world and I know that Professor Hilton will help us succeed both in
+            and out of class. I have enjoyed his classes so far throughout my college education and know that I will continue to do so.
+        </p>
+
+        <h3>- Top 3 Job Interests -</h3> <!-- top three job interests header -->
+
+        <p>Cybersecurity<br />Development<br />Data Analytics</p> <!-- 3 jobs -->
+
+        <h3>Grade Calculator</h3> <!-- grade calculator form -->
+        <form>
+            <label>Assignments (50%):</label>           <!-- accepting inputs -->
+            <input id="assignments" /><br />
+            <label>Group Project (10%):</label>
+            <input id="group" /><br />
+            <label>Quizzes (10%):</label>
+            <input id="quizzes" /><br />
+            <label>Midterm (10%):</label>
+            <input id="midterm" /><br />
+            <label>Final Exam (10%):</label>
+            <input id="final" /><br />
+            <label>INTEX (10%):</label>
+            <input id="intex" /><br />
+            <input id="btnSend" type="button" value="Calculate Grade" /><br /> <!-- submit button -->
+            <label id="percentFinalDisplay"></label><br /> <!-- label for percent final -->
+            <label id="letterFinalDisplay"></label> <!-- label for letter final -->
+        </form>
+    </div>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script> <!-- attaching jquery -->
+    <script src="js/gradeCalc.js"></script> <!-- attaching javascript -->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script> <!-- attaching bootstrap -->
+</body>
+</html>
