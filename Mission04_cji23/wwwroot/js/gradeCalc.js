@@ -37,11 +37,13 @@
         finalLetterGrade = "E";
     }
 
-    //variables for numeric and letter final display
+    // variables for numeric and letter final display
     var percentFinalDisplay = "Numeric Grade: " + finalNumGrade
     var letterFinalDisplay = "Letter Grade: " + finalLetterGrade
 
-    //attaching final displays to form labels using jquery
+    // attaching final displays to form labels using jquery
     $("#percentFinalDisplay").text(percentFinalDisplay);
     $("#letterFinalDisplay").text(letterFinalDisplay);
+
+    alert("Percent: " + finalNumGrade + "--- Letter: " + finalLetterGrade);
 })

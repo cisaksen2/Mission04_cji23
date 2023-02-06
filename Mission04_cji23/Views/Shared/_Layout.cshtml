@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link rel="shortcut icon" href="~/favfinal4.ico" type="image/x-icon" /> <!-- favicon -->
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <a asp-controller="Pages" asp-action="Index">Home</a>
+        <a asp-controller="Pages" asp-action="GradeCalculator">Grade Calculator</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+
+</body>
+</html>
