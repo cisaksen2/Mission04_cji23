@@ -45,5 +45,5 @@
     $("#percentFinalDisplay").text(percentFinalDisplay);
     $("#letterFinalDisplay").text(letterFinalDisplay);
 
-    alert("Percent: " + finalNumGrade + "--- Letter: " + finalLetterGrade);
+    alert(finalNumGrade)
 })
